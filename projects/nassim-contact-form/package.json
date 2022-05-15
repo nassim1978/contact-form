@@ -3,16 +3,20 @@
   "version": "0.0.1",
   "description":" formulario de contacto para web-page",
   "keywords":[
-    "formulario",
+    "formulario de contacto",
     "contact form"
   ],
-  "homepage":"",
+  "homepage":"https://github.com/nassim1978/contact-form",
   "bugs":{
-    "url" : "https://github.com/owner/project/issues",
-    "email" : "project@hostname.com"
+    "url" : "https://github.com/nassim1978/contact-form/issues",
+    "email" : "444@hotmail.cl"
   },
-  "license":{
-    "license" : "BSD-3-Clause"
+  
+  "license" : "MIT",
+  "author":{
+    "name" : "Nassim",
+    "email" : "444@hotmail.cl",
+    "url" : "nassim.cl"
   },
   "peerDependencies": {
     "@angular/common": "^12.2.0",

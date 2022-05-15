@@ -100,6 +100,37 @@
           }
         }
       }
+    },
+    "nassim-contact-form": {
+      "projectType": "library",
+      "root": "projects/nassim-contact-form",
+      "sourceRoot": "projects/nassim-contact-form/src",
+      "prefix": "ncf",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/nassim-contact-form/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/nassim-contact-form/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/nassim-contact-form/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/nassim-contact-form/src/test.ts",
+            "tsConfig": "projects/nassim-contact-form/tsconfig.spec.json",
+            "karmaConfig": "projects/nassim-contact-form/karma.conf.js"
+          }
+        }
+      }
     }
   },
   "defaultProject": "contact-form"
