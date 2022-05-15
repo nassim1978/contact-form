@@ -1,0 +1,24 @@
+{
+  "name": "nassim-contact-form",
+  "version": "0.0.1",
+  "description":" formulario de contacto para web-page",
+  "keywords":[
+    "formulario",
+    "contact form"
+  ],
+  "homepage":"",
+  "bugs":{
+    "url" : "https://github.com/owner/project/issues",
+    "email" : "project@hostname.com"
+  },
+  "license":{
+    "license" : "BSD-3-Clause"
+  },
+  "peerDependencies": {
+    "@angular/common": "^12.2.0",
+    "@angular/core": "^12.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
